@@ -10,6 +10,5 @@ Tablas Proveedor Productos y Transacciones
 ![](https://github.com/DDOrozco17/UIII-Act-3-CRUD-tabla-relacional/blob/main/Captura%20de%20pantalla%202023-11-23%20202126.png)
 
 ## Tabla Transacciones
-![](https://github.com/DDOrozco17/UIII-Act-3-CRUD-tabla-relacional/blob/main/Captura%20de%20pantalla%202023-11-23%20201958.png
-)
-![]()
+![](https://github.com/DDOrozco17/UIII-Act-3-CRUD-tabla-relacional/blob/main/Captura%20de%20pantalla%202023-11-23%20201958.png)
+![](https://github.com/DDOrozco17/UIII-Act-3-CRUD-tabla-relacional/blob/main/Captura%20de%20pantalla%202023-11-23%20202308.png)
