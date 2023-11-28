@@ -3,7 +3,7 @@ include_once("../config/conexion.php");
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Recibir los datos del formulario de edición
-    $id_proveedor = $_POST['id_proveedor'];
+    $id_provedor = $_POST['id_provedor'];
     $nombre_proveedor = $_POST['nombre_proveedor'];
     $direccion = $_POST['direccion'];
     $telefono = $_POST['telefono'];
@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 producto_principal = '$producto_principal',
                 fecha_entrega = '$fecha_entrega',
                 total_productos = '$total_productos'
-                WHERE id_provedor = $id_proveedor";
+                WHERE id_provedor = $id_provedor";
 
     if (mysqli_query($conexion, $consulta)) {
         // Redireccionar a alguna página después de la actualización exitosa

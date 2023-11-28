@@ -2,11 +2,11 @@
 include_once("../../config/conexion.php");
 
 // Verificar si se recibió un ID válido
-if (isset($_REQUEST['id_proveedor']) && is_numeric($_REQUEST['id_proveedor'])) {
-    $id_proveedor = $_REQUEST['id_proveedor'];
+if (isset($_REQUEST['id_provedor']) && is_numeric($_REQUEST['id_provedor'])) {
+    $id_provedor = $_REQUEST['id_provedor'];
 
     // Obtener datos del proveedor por ID
-    $sql = "SELECT * FROM tbl_proveedor WHERE id_provedor = $id_proveedor";
+    $sql = "SELECT * FROM tbl_proveedor WHERE id_provedor = $id_provedor";
     $resultado = $conexion->query($sql);
 
     // Verificar si se encontraron resultados
@@ -75,7 +75,7 @@ if (isset($_REQUEST['id_proveedor']) && is_numeric($_REQUEST['id_proveedor'])) {
                     <div class="card-body">
                         <h5 class="card-title text-center">ACTUALIZAR PROVEEDOR</h5>
                         <form action="../../CRUDP/editarDatos.php" method="post">
-                            <input type="hidden" class="form-control" name="id_proveedor" id="id_proveedor"
+                            <input type="hidden" class="form-control" name="id_provedor" id="id_provedor"
                                 value="<?php echo $row['id_provedor'] ?>">
 
                             <div class="mb-3">

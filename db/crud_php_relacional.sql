@@ -28,7 +28,7 @@ DROP TABLE IF EXISTS `tbl_productos`;
 DROP TABLE IF EXISTS `tbl_transacciones`;
 -- --------------------------------------------------------
 
---
+-- 
 -- Estructura de tabla para la tabla `tbl_proveedor`
 --
 
@@ -115,8 +115,6 @@ INSERT INTO `tbl_transacciones` (`id_transaccion`, `id_proveedor`, `id_producto`
 
 
 -- --------------------------------------------------------
-
- --------------------------------------------------------
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
